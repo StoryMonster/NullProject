@@ -1,0 +1,4 @@
+#!/bin/bash
+
+script_location=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+python $script_location/../src/commitSearcher.py $@
